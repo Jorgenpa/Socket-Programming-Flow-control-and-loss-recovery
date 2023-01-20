@@ -6,6 +6,9 @@ Flow control and packet loss machanisms are implemented, along with a sliding wi
 
 ## Setup
 There is a Makefile with the options:
+
 **make** - compiles both programs resulting in executable binaries "client" and "server"
+
 **make all** - does the same as make without any parameter
+
 **make clean** - deletes the executables and any temporary files (eg. *.o)
