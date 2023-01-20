@@ -4,7 +4,7 @@ A client-server application that compares images that are stored on two end syst
 - When the server receives a packet from the client, it extracts the image data from the packet’s payload and compares it with all of the images that are stored locally on the server. It writes the name of the file that matches the image to a local file. This file can then be used to check that your implementation works as expected
 Flow control and packet loss machanisms are implemented, along with a sliding window algorithm. 
 
-##Setup
+## Setup
 There is a Makefile with the options:
 **make** - compiles both programs resulting in executable binaries "client" and "server"
 **make all** - does the same as make without any parameter
