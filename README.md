@@ -11,4 +11,16 @@ There is a Makefile with the options:
 
 **make all** - does the same as make without any parameter
 
+**make client** - compiles just the client program
+
+**make server** - compiles just the server program
+
+**make clitest** - runs tests on the client program
+
+**make sertest** - runs tests on the server program
+
+**make clivalgrind** - Valgrind is a programming tool for memory debugging, memory leak detection, and profiling.
+
+**make servalgrind** - Valgrind is a programming tool for memory debugging, memory leak detection, and profiling
+
 **make clean** - deletes the executables and any temporary files (eg. *.o)
